@@ -84,6 +84,9 @@ body{
 .nav-item:nth-child(7){
 	transition-delay: 0.7s;
 }
+.nav-item:nth-child(8){
+	transition-delay: 0.8s;
+}
 .nav-link{
 	display: inline-block;
 	position: relative;
@@ -213,8 +216,7 @@ main{
 	display: grid;
 	grid-gap: 30px;
 	grid-template-areas: 
-	'bioimage bio bio'
-	'job1 job2 job3';
+	'bioimage bio bio';
 	grid-template-columns: repeat(3, 1fr);
 }
 
@@ -229,17 +231,27 @@ main{
 	grid-area: bio;
 	font-size: 1.5rem;
 }
+.about-infos{
+	display: grid;
+	grid-gap: 30px;
+	grid-template-areas: 
+	'bioimage bio bio'
+	'job1 job2' ;
+	grid-template-columns: repeat(2, 1fr);
+}
 
+.date{
+	font-size: 15px;
+}
+.job>p{
+	text-indent: 15px;
+}
 .job1{
 	grid-area: job1;
 }
 
 .job2{
 	grid-area: job2;
-}
-
-.job3{
-	grid-area: job3;
 }
 
 .job{
@@ -341,13 +353,14 @@ a>img:hover{
 
 .edu{
 	left: 50%;
-	font-size: 2rem;
+	font-size: 20px;
 	border: 3px solid #fff;
 	padding: 1.5rem 2.5rem;
 	margin-right: 3rem;
 	margin-bottom: 3rem;
 	transition: all 0.5s ease-out;
 	align-items: center;
+	text-align: center;
 }
 
 .edu:hover{
@@ -413,7 +426,7 @@ a>img:hover{
   border-radius: 20px;
   background: #eece1a;
   height: 15px;
-  width: 68%;
+  width: 80%;
 }
 .progress-value.pgr2 {
   border-radius: 20px;
@@ -425,19 +438,43 @@ a>img:hover{
   border-radius: 20px;
   background: #eece1a;
   height: 15px;
-  width: 60%;
+  width: 80%;
 }
 .progress-value.pgr4 {
   border-radius: 20px;
   background: #eece1a;
   height: 15px;
-  width: 75%;
+  width: 80%;
 }
 .progress-value.pgr5 {
   border-radius: 20px;
   background: #eece1a;
   height: 15px;
-  width: 90%;
+  width: 70%;
+}
+.progress-value.pgr6 {
+  border-radius: 20px;
+  background: #eece1a;
+  height: 15px;
+  width: 60%;
+}
+.progress-value.pgr7 {
+  border-radius: 20px;
+  background: #eece1a;
+  height: 15px;
+  width: 60%;
+}
+.progress-value.pgr8 {
+  border-radius: 20px;
+  background: #eece1a;
+  height: 15px;
+  width: 55%;
+}
+.progress-value.pgr9 {
+  border-radius: 20px;
+  background: #eece1a;
+  height: 15px;
+  width: 50%;
 }
 
 .h3{
