@@ -240,8 +240,12 @@ main{
 	grid-template-columns: repeat(2, 1fr);
 }
 
-.date{
-	font-size: 15px;
+.title{
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+p{
+	text-indent: 1.5rem;
 }
 .job>p{
 	text-indent: 15px;
@@ -255,6 +259,8 @@ main{
 }
 
 .job{
+	margin-bottom: 2rem;
+	margin-top: 1rem;
 	background: #4f4f4f;
 	padding: 0.5rem;
 	border-bottom: 3px solid #eece1a;
