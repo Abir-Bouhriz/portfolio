@@ -245,7 +245,8 @@ main{
 	margin-bottom: 1rem;
 }
 p{
-	text-indent: 1.5rem;
+	margin-left: 3.5rem;
+	margin-right: 2.5rem;
 }
 .job>p{
 	text-indent: 15px;
@@ -281,7 +282,6 @@ a>img{
 }
 
 a>img:hover{
-	opacity: 0.5;
 	border-color: #eece1a;
 	transition: all 0.5s ease-out;
 
@@ -323,7 +323,7 @@ a>img:hover{
 	display: block;
 	padding: 0.5rem 1rem;
 	border: 0;
-	margin-bottom: 0.3rem;
+	margin-bottom: 1.5rem;
 	margin-left: 1rem;
 	background: #000;
 	color: #fff;
@@ -343,7 +343,7 @@ a>img:hover{
 	margin-top: 1rem;
 }
 .cnt{
-	font-size: 2rem;
+	font-size: 27px;
 	border: 3px solid #fff;
 	padding: 1.5rem 2.5rem;
 	margin-bottom: 3rem;
@@ -372,7 +372,6 @@ a>img:hover{
 .edu:hover{
 	border-color: #eece1a;
 	transition: all 0.5s ease-out;
-	cursor: pointer;
 }
 
 .text-secondary1{
