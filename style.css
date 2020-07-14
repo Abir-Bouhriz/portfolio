@@ -415,10 +415,10 @@ a>img:hover{
 
 #main-footer{
 	text-align: center;
-	padding: 1rem;
 	background: #282828;
 	color: #fff;
 	height: 40px;
+	line-height: 40px
 }
 
 
